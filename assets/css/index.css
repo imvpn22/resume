@@ -258,7 +258,8 @@ strong {
 }
 
 .cat-skill-body-gen {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .skill {
@@ -279,6 +280,7 @@ strong {
 .skill-title,
 .skill-gen {
   font-size: 0.8rem;
+  margin-top: 5px;
 }
 
 .skill-progress-track {
