@@ -185,6 +185,7 @@ setSkills = skills => {
 setExperience = experiences => {
   const expList = document.querySelector('#experienceList');
   experiences.forEach(exper => {
+    let roles = exper.roles;
     const expListItem = document.createElement('li');
 
     const expItem = document.createElement('div');
@@ -194,36 +195,30 @@ setExperience = experiences => {
     expOrg.className = 'exp-org';
     expOrg.innerText = exper.organization;
     expItem.appendChild(expOrg);
-
-    const expSub = document.createElement('div');
-
-    const expTitle = document.createElement('span');
-    expTitle.className = 'exp-title';
-    expTitle.innerHTML = `${exper.title}, (${exper.date})`;
-    expSub.appendChild(expTitle);
-
-    // const expDura = document.createElement('span');
-    // expDura.className = 'ach-duration';
-    // expDura.innerHTML = exper.date;
-    // expSub.appendChild(expDura);
-
-    expItem.appendChild(expSub);
-
     expListItem.appendChild(expItem);
 
-    if (exper.details) {
-      const expDetails = document.createElement('ul');
-      expDetails.className = 'expDet';
+    exper.roles.forEach(role => {
+      const expSub = document.createElement('div');
+      const expTitle = document.createElement('span');
+      expTitle.className = 'exp-title';
+      expTitle.innerHTML = `${role.title}, (${role.date})`;
+      expSub.appendChild(expTitle);
+      expListItem.appendChild(expSub);
+      if (role.details) {
+        const expDetails = document.createElement('ul');
+        expDetails.className = 'expDet';
 
-      exper.details.forEach(dText => {
-        detItem = document.createElement('li');
-        detItem.style.listStyle = 'square';
-        detItem.innerHTML = dText;
-        expDetails.appendChild(detItem);
-      });
+        role.details.forEach(dText => {
+          detItem = document.createElement('li');
+          detItem.style.listStyle = 'square';
+          detItem.innerHTML = dText;
+          expDetails.appendChild(detItem);
+        });
 
-      expListItem.appendChild(expDetails);
-    }
+        expListItem.appendChild(expDetails);
+      }
+    });
+
 
     expList.appendChild(expListItem);
   });

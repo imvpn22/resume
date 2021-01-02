@@ -9,7 +9,7 @@ const profileData = {
       Progressive Web Application standards and application life-cycle managements.`,
         contact: {
             email: 'amitykaran74@gmail.com',
-            phone: '+91-7409636807',
+            phone: '+91-8077335182',
             address: 'Gurugram, Haryana 560035'
         }
     },
@@ -17,8 +17,8 @@ const profileData = {
         // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
         {title: 'Github', src: 'https://github.com/amitykaran'},
         {title: 'LinkedIn', src: 'https://www.linkedin.com/in/amit-yadav1/'},
-        {title: 'Twitter', src: 'https://twitter.com/amitykaran74'},
-        {title: 'HackerEarth', src: 'https://www.hackerearth.com/@amitykaran74'}
+        // {title: 'Twitter', src: 'https://twitter.com/amitykaran74'},
+        // {title: 'HackerEarth', src: 'https://www.hackerearth.com/@amitykaran74'}
     ],
     education: [
         {
@@ -59,18 +59,18 @@ const profileData = {
         {
             graph: 'false',
             category: 'Others',
-            topics: ['AWS SQS(Simple Queue Service)', 'Redis']
+            topics: ['AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
         }
     ],
     projects: [
-        {
-            title: 'Personal Doctor (Android App)',
-            duration: 'Nov - Dec 2017',
-            link: 'https://github.com/amitykaran/android-app',
-            desc: `It is a small application have features like <strong>Medicine reminder</strong>
-       (remind you to take your medicine), find people of <strong>same blood group</strong> as yours and panic
-        button for <strong>emergency call</strong>.`
-        },
+       //  {
+       //      title: 'Personal Doctor (Android App)',
+       //      duration: 'Nov - Dec 2017',
+       //      link: 'https://github.com/amitykaran/android-app',
+       //      desc: `It is a small application have features like <strong>Medicine reminder</strong>
+       // (remind you to take your medicine), find people of <strong>same blood group</strong> as yours and panic
+       //  button for <strong>emergency call</strong>.`
+       //  },
         {
             title: 'Down Syndrome Detection, (Using Machine Learning)',
             duration: 'Mar - April 2018',
@@ -89,43 +89,92 @@ const profileData = {
     experiences: [
         {
             organization: 'Venuemonk',
-            title: `Full-Stack Developer(SDE-I)`,
-            desc: `Full-Stack Engineer`,
-            date: 'Dec 2018 - Present',
-            details: [
-                `Contributed to <strong>Corporate Application</strong> with <strong>2-Interns</strong> to give different experience to corporates. They can manage their <strong>events</strong>, have <strong>wallet</strong> to manage <strong>cash points</strong>. To maintain cash flow have feature like <strong>Won cash points</strong>, add <strong>coupons</strong> to cart to <strong>buy</strong> them, <strong>expire cash</strong>, etc. whole project developed using <strong>MERN Stack</strong>, <strong>Redux</strong>, <strong>CSS</strong> and <strong>AWS SQS</strong> to help background processing.`,
-                `Developed <strong>Partner Application</strong> to make their work <strong>effortless</strong>, have feature like <strong>On-boarding</strong>,  <strong>manage events</strong>, <strong>mail and Sms </strong>to customer, track <strong>events status</strong>, <strong>past bookings</strong> and <strong>progress reports</strong>. Developed using <strong>MERN Stack</strong>, <strong>Redux</strong>, <strong>CSS</strong>, <strong>Bootstrap 4</strong>, <strong>React-Bootstrap</strong> and <strong>AWS SQS</strong> for Sms, Email and other background processes.`,
-                `Contributed in <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with <strong>Redux</strong>, <strong>CSS</strong> and <strong>Bootstrap 3</strong> and adding actions to those also integrate backend using REST-APIs.`,
-                `Created a fully <strong>Dynamic Selective Form</strong>, using different small reusable <strong>React</strong> components, to make user experience effortless to connect with us. Integrate with <strong>Server</strong> using APIs to store data in <strong>MongoDB</strong> also use <strong>AWS SQS</strong> to perform further operations on data.`,
-                `Created <strong>Bootstrap 4 based custom framework</strong> to create <strong>design elements</strong> and <strong>convert SVG to CSS classes</strong> easily.`,
+            roles: [
+                {
+                    title: `Tech Lead(SDE-II)`,
+                    desc: ``,
+                    date: 'Aug 2020 - Present',
+                    details: [
+                        `Managing team of <strong>5 peoples</strong> working on <strong>2 different projects</strong> making user experience  and our services more reliable and efficient.`,
+                    ]
+                },
+                {
+                    title: `Full-Stack Developer(SDE-I)`,
+                    desc: ``,
+                    date: 'Jan 2020 - Aug 2020',
+                    details: [
+                        `Architecture design and Developed <strong>Application for Partners</strong> to make their work <strong>effortless</strong>, have features like <strong>On-boarding</strong>,  <strong>manage events</strong>, <strong>mail and Sms </strong>to the customer, track <strong>events status</strong>, <strong>past bookings</strong> and <strong>progress reports</strong>.`,
+                        `Developed <strong>smart lead management system</strong> to improve our sales team work <strong>efficiency nearly 4-times</strong>, .`,
+                    ]
+                },
+                {
+                    title: `Front-End Developer(SDE-I)`,
+                    desc: ``,
+                    date: 'Dec 2018 - Dec 2019',
+                    details: [
+                        `Develop a <strong>fully end-to-end application</strong> with a team of 3 to give a different experience to <strong>corporate users</strong>. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage won <strong>cashpoints</strong>, also can buy <strong>coupons</strong> using them, etc.`,
+                        // `Contributed to <strong>Corporate Application</strong> with <strong>2-Interns</strong> to give different experience to corporates. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage <strong>cashpoints</strong>. To maintain cash flow have features like <strong>Won cashpoints</strong>, add <strong>coupons</strong> to cart to <strong>buy</strong> them, <strong>expire cash</strong>, etc. The whole project developed using <strong>React</strong>, <strong>Redux</strong>, <strong>CSS</strong>, <strong>Bootstrap 4</strong>, <strong>NodeJs</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, etc.`,
 
-                `Contributed to create <strong>Dynamic Template website Generator</strong> to create single page website easily, In which templates are written in <strong>DustJs</strong> connect with <strong>NodeJs</strong>.`,
-                `Developed <strong>User Tracking System</strong> to track user behaviour, So that we can give better experience to <strong>them</strong>.`
-            ]
+                        `Contributed to <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with improved UI and functionality also integrate them with backend using APIs.`,
+
+                        `Developed <strong>User Tracking System</strong> to track user behaviour to give them a better experience.`
+                    ]
+                }
+            ],
         },
+        // {
+        //     organization: 'Venuemonk',
+        //     roles: [
+        //         {
+        //             title: `Full-Stack Developer(SDE-I)`,
+        //             desc: `Full-Stack Engineer`,
+        //             date: 'Dec 2018 - Present',
+        //             details: [
+        //                 `Contributed to <strong>Corporate Application</strong> with <strong>2-Interns</strong> to give different experience to corporates. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage <strong>cashpoints</strong>. To maintain cash flow have features like <strong>Won cashpoints</strong>, add <strong>coupons</strong> to cart to <strong>buy</strong> them, <strong>expire cash</strong>, etc. The whole project developed using <strong>React</strong>, <strong>Redux</strong>, <strong>CSS</strong>, <strong>Bootstrap 4</strong>, <strong>NodeJs</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, etc.`,
+        //
+        //                 `Developed <strong>Partner Application</strong> to make their work <strong>effortless</strong>, have features like <strong>On-boarding</strong>,  <strong>manage events</strong>, <strong>mail and Sms </strong>to the customer, track <strong>events status</strong>, <strong>past bookings</strong> and <strong>progress reports</strong>.`,
+        //
+        //                 `Contributed to <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with improved UI and functionality also integrate them with backend using APIs.`,
+        //
+        //                 // `Created a fully <strong>Dynamic Selective Form</strong> using different small reusable components to make the user experience effortless to connect with us. Integrate with <strong>Server</strong> and use <strong>AWS SQS</strong> to perform further operations on data.`,
+        //
+        //                 `<!--Created a <strong>Bootstrap 4 based custom framework</strong> to create <strong>design elements</strong> also <strong>convert SVG icons to CSS classes</strong> easily.-->`,
+        //
+        //                 // `Created a <strong>Dynamic Template website Generator</strong> to generate a single-page website quickly, with the help of templates written in <strong>DustJs</strong>, also connect with <strong>NodeJs</strong> to serve data.`,
+        //
+        //                 `Developed <strong>User Tracking System</strong> to track user behaviour to give them a better experience.`
+        //             ]
+        //         }
+        //     ]
+        // },
         {
             organization: 'NIC (National Informatics Centre)',
-            title: `Project Engineer`,
-            desc: `Project Engineer`,
-            date: 'July 2018 - Nov 2018',
-            details: [
-                `Contributed in a <strong>Gov. Project</strong> by developing different types of <strong>dynamic forms</strong>
- with specific validations in <strong>Angular 4</strong>, <strong>Angular-Material</strong> and adding actions to those by 
-        creating services to integrate backend using <strong>REST-APIs</strong>.`,
-                `Developing back-end APIs in <strong>NodeJs - Express</strong> using <strong>PostgresQL</strong> and integrating those with front- end application in <strong>Angular</strong>.`,
+            roles: [
+                {
+                    title: `Project Engineer`,
+                    desc: `Project Engineer`,
+                    date: 'July 2018 - Nov 2018',
+                    details: [
+                        `Contributed to a development of <strong>Punjab Gov. portal</strong> that helps <strong>Industrialists and Investors</strong> to get all Clearances from <strong>20+ different Departments in one go.</strong>`
+                    ]
+                }
             ]
         },
-        {
-            organization: 'RWX Technologies',
-            title: 'Software Developer Intern',
-            desc: ``,
-            date: 'May 2017 - July 2017',
-            details: [
-                `Contribute to a project <strong>Smile Detection</strong> using technologies like <strong>Image-Recognition</strong> and <strong>Machine Learning</strong> develop in 
-<strong>MATLAB</strong>. Use Machine Learning algorithm like <strong>Random Forest</strong>, <strong>KNN(K-Nearest Neighbour)</strong>, etc.`,
-                `Create data set of <strong>2500 Images</strong> and <strong>test</strong> on nearly <strong>300 Images</strong>.`,
-            ]
-        }
+//         {
+//             organization: 'RWX Technologies',
+//             roles: [
+//                 {
+//                     title: 'Software Developer Intern',
+//                     desc: ``,
+//                     date: 'May 2017 - July 2017',
+//                     details: [
+//                         `Contribute to a project <strong>Smile Detection</strong> using technologies like <strong>Image-Recognition</strong> and <strong>Machine Learning</strong> develop in
+// <strong>MATLAB</strong>. Use Machine Learning algorithm like <strong>Random Forest</strong>, <strong>KNN(K-Nearest Neighbour)</strong>, etc.`,
+//                         `Create data set of <strong>2500 Images</strong> and <strong>test</strong> on nearly <strong>300 Images</strong>.`,
+//                     ]
+//                 }
+//             ]
+//         }
     ],
     events: [
         {

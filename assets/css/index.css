@@ -16,7 +16,7 @@ html {
 /* Links */
 a {
   text-decoration: none !important;
-  color: #3173bb !important;
+  color: #f4645f !important;
 }
 
 strong {
@@ -84,12 +84,12 @@ strong {
 .contact-item {
   display: flex;
   align-items: center;
-  color: #3173bb;
+  color: #f4645f;
   padding: 0.5rem 0;
 }
 
 .contact-logo {
-  color: #3173bb;
+  color: #f4645f;
   /* font-size: 1rem; */
 }
 
@@ -129,7 +129,7 @@ strong {
 }
 
 .cat-indicator {
-  color: #3173bb;
+  color: #f4645f;
 }
 
 .cat-title {
@@ -195,7 +195,7 @@ strong {
 .edu-score {
   margin-left: 20px;
   padding: 2px 8px;
-  background-color: #3173bb;
+  background-color: #f4645f;
   color: #fff;
   border-radius: 20px;
 }
@@ -247,7 +247,7 @@ strong {
   margin-top: -0.1rem;
   position: absolute;
   margin-left: -1.5rem;
-  color: #3173bb;
+  color: #f4645f;
 } */
 
 .cat-skill-body {
@@ -293,7 +293,7 @@ strong {
 
 .skill-progress {
   height: 100%;
-  background-color: #3173bb;
+  background-color: #f4645f;
   border-radius: 6px;
 }
 
@@ -335,9 +335,11 @@ strong {
 .expDet {
   list-style-type: disc !important;
   color: #444;
-  padding: 4px 0 4px 16px;
+  padding: 4px 0 4px 32px !important;
   font-style: italic;
   font-size: 0.9rem;
+  margin-left: 2px;
+  border-left: 2px solid beige;
 }
 
 .expDet > li {
