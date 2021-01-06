@@ -44,7 +44,7 @@ const profileData = {
         {
             graph: 'false',
             category: 'Programming Languages',
-            topics: ['C', 'C++', 'JavaScript', 'TypeScript']
+            topics: ['JavaScript', 'TypeScript','C++', 'C', ]
         },
         {
             graph: 'false',
@@ -59,7 +59,7 @@ const profileData = {
         {
             graph: 'false',
             category: 'Others',
-            topics: ['AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
+            topics: ['HTML', 'CSS', 'AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
         }
     ],
     projects: [
@@ -95,7 +95,7 @@ const profileData = {
                     desc: ``,
                     date: 'Aug 2020 - Present',
                     details: [
-                        `Managing team of <strong>5 peoples</strong> working on <strong>2 different projects</strong> making user experience  and our services more reliable and efficient.`,
+                        `Manage a team of <strong>6 peoples</strong> while working on <strong>different projects</strong> to implementing new features with a futuristic approach. It will take our tech systems to new heights.`,
                     ]
                 },
                 {
@@ -104,7 +104,7 @@ const profileData = {
                     date: 'Jan 2020 - Aug 2020',
                     details: [
                         `Architecture design and Developed <strong>Application for Partners</strong> to make their work <strong>effortless</strong>, have features like <strong>On-boarding</strong>,  <strong>manage events</strong>, <strong>mail and Sms </strong>to the customer, track <strong>events status</strong>, <strong>past bookings</strong> and <strong>progress reports</strong>.`,
-                        `Developed <strong>smart lead management system</strong> to improve our sales team work <strong>efficiency nearly 4-times</strong>, .`,
+                        `Developed <strong>a smart lead management system</strong> to improve our sales team work <strong>efficiency nearly 4-times</strong>.`,
                     ]
                 },
                 {
@@ -112,12 +112,12 @@ const profileData = {
                     desc: ``,
                     date: 'Dec 2018 - Dec 2019',
                     details: [
-                        `Develop a <strong>fully end-to-end application</strong> with a team of 3 to give a different experience to <strong>corporate users</strong>. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage won <strong>cashpoints</strong>, also can buy <strong>coupons</strong> using them, etc.`,
+                        `Develop <strong>Our User Tracking System</strong> to track user behaviour at every point to give them a better experience. It will help us to implement <strong>AI and Machine Learning</strong> in the future.`,
+                            `Develop a <strong>fully end-to-end application</strong> with a team of 3 to give a different experience to <strong>corporate users</strong>. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage won <strong>cashpoints</strong>, also can buy <strong>coupons</strong> using them, etc.`,
                         // `Contributed to <strong>Corporate Application</strong> with <strong>2-Interns</strong> to give different experience to corporates. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage <strong>cashpoints</strong>. To maintain cash flow have features like <strong>Won cashpoints</strong>, add <strong>coupons</strong> to cart to <strong>buy</strong> them, <strong>expire cash</strong>, etc. The whole project developed using <strong>React</strong>, <strong>Redux</strong>, <strong>CSS</strong>, <strong>Bootstrap 4</strong>, <strong>NodeJs</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, etc.`,
 
                         `Contributed to <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with improved UI and functionality also integrate them with backend using APIs.`,
 
-                        `Developed <strong>User Tracking System</strong> to track user behaviour to give them a better experience.`
                     ]
                 }
             ],
