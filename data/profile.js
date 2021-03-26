@@ -44,7 +44,7 @@ const profileData = {
         {
             graph: 'false',
             category: 'Programming Languages',
-            topics: ['JavaScript', 'TypeScript','C++', 'C', ]
+            topics: ['JavaScript', 'TypeScript' ]
         },
         {
             graph: 'false',
@@ -95,7 +95,7 @@ const profileData = {
                     desc: ``,
                     date: 'Aug 2020 - Present',
                     details: [
-                        `Manage a team of <strong>6 peoples</strong> while working on <strong>different projects</strong> to implementing new features with a futuristic approach. It will take our tech systems to new heights.`,
+                        `Managing a team of <strong>6 peoples</strong> while working on <strong>2 different projects</strong>, In which one project is a <strong>customer-facing website</strong> and another is an <strong>internal CRM system</strong>. Our current focus is to implement new features with a futuristic approach. It will take our tech systems to new heights. `,
                     ]
                 },
                 {
