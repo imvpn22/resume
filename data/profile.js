@@ -88,12 +88,26 @@ const profileData = {
     ],
     experiences: [
         {
+            organization: 'Glance',
+            roles: [
+                {
+                    title: 'SDE-II',
+                    desc: '',
+                    date: 'June 2021 - Present',
+                    details: [
+                        `Worked on four different projects of different domains like CMS, commerce, live show, etc.`,
+                        `Most projects use React, Nextjs, other front-end technologies and also worked with webRTC, RTM, FCM. One project is based on Shopify.`
+                    ]
+                }
+            ]
+        },
+        {
             organization: 'Venuemonk',
             roles: [
                 {
                     title: `Tech Lead(SDE-II)`,
                     desc: ``,
-                    date: 'Aug 2020 - Present',
+                    date: 'Aug 2020 - May 2021',
                     details: [
                         `Managing a team of <strong>6 peoples</strong> while working on <strong>2 different projects</strong>, In which one project is a <strong>customer-facing website</strong> and another is an <strong>internal CRM system</strong>. Our current focus is to implement new features with a futuristic approach. It will take our tech systems to new heights. `,
                     ]
