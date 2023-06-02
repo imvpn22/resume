@@ -14,7 +14,6 @@ const profileData = {
         }
     },
     links: [
-        // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
         {title: 'Github', src: 'https://github.com/amitykaran'},
         {title: 'LinkedIn', src: 'https://www.linkedin.com/in/amit-yadav1/'},
         // {title: 'Twitter', src: 'https://twitter.com/amitykaran74'},
