@@ -95,7 +95,7 @@ const profileData = {
                     date: 'June 2021 - Present',
                     details: [
                         `Worked on four different projects of different domains like CMS, commerce, live show, etc.`,
-                        `Most projects use React, Nextjs, other front-end technologies and also worked with webRTC, RTM, FCM. One project is based on Shopify.`
+                        `Most projects use <strong>React</strong>, <strong>Nextjs</strong>, other front-end technologies and also worked with <strong>webRTC</strong>, <strong>RTM</strong>, <strong>FCM</strong>. One project is based on Shopify.`
                     ]
                 }
             ]
@@ -129,7 +129,7 @@ const profileData = {
                             `Develop a <strong>fully end-to-end application</strong> with a team of 3 to give a different experience to <strong>corporate users</strong>. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage won <strong>cashpoints</strong>, also can buy <strong>coupons</strong> using them, etc.`,
                         // `Contributed to <strong>Corporate Application</strong> with <strong>2-Interns</strong> to give different experience to corporates. They can manage their <strong>events</strong>, have a <strong>wallet</strong> to manage <strong>cashpoints</strong>. To maintain cash flow have features like <strong>Won cashpoints</strong>, add <strong>coupons</strong> to cart to <strong>buy</strong> them, <strong>expire cash</strong>, etc. The whole project developed using <strong>React</strong>, <strong>Redux</strong>, <strong>CSS</strong>, <strong>Bootstrap 4</strong>, <strong>NodeJs</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, etc.`,
 
-                        `Contributed to <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with improved UI and functionality also integrate them with backend using APIs.`,
+                        //`Contributed to <strong>Redesigning complete website(Mobile and Desktop)</strong> by translating the design mockups into reusable UI components of <strong>React</strong> with improved UI and functionality also integrate them with backend using APIs.`,
 
                     ]
                 }
