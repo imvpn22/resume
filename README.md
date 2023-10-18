@@ -1,5 +1,6 @@
-# Résumé 
+# Resum 
 
+# Forked project: 
 ### About
 It is my simple resume made with HTML, CSS, JS using JSON data.   
 Initially the project was written with NodeJS architecture. [View Old Project](https://github.com/methusael13/resume-builder)
@@ -53,6 +54,3 @@ Hit CTRL-C to stop the server
 ### Support
 If you like the project idea, make sure to give it a star. 
 If you want to contribute, just give me a PR.
-
-
-
