@@ -1,6 +1,6 @@
 const profileData = {
   title: "Resume",
-  name: "Vipin Yadav",
+  name: "Cameron Nazemi",
   sub_title: "Frontend/UI Engineer",
   logoURL: "assets/images/dp.jpg",
   about: {
