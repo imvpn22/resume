@@ -56,7 +56,7 @@ const profileData = {
         {
             graph: 'false',
             category: 'Others',
-            topics: ['HTML', 'CSS', 'AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
+            topics: ['Data Structure & Algorithms', 'HTML', 'CSS', 'AWS SQS(Simple Queue Service)', 'Redis', 'Elasticsearch']
         }
     ],
     projects: [
