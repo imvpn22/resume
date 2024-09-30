@@ -1,16 +1,14 @@
 const profileData = {
     title: 'Résumé',
     name: 'Amit Yadav',
-    sub_title: 'Full-Stack Developer',
+    sub_title: 'Front-End Developer',
     logoURL: 'assets/images/dp.jpg',
     about: {
-        intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+        intro: `I am an innovative and passionate developer with over 6 years of experience, primarily focused on JavaScript and its applications. I have expertise in designing and implementing sophisticated UI/UX following Progressive Web Application (PWA) standards and managing the full application life cycle.`,
         contact: {
             email: 'amitykaran74@gmail.com',
             phone: '+91-8077335182',
-            address: 'Gurugram, Haryana 560035'
+            address: 'Bangalore, Karnataka 560103'
         }
     },
     links: [
@@ -90,11 +88,21 @@ const profileData = {
             organization: 'Glance',
             roles: [
                 {
+                    title: 'SDE-III',
+                    desc: '',
+                    date: 'Jul 2023 - Present',
+                    details: [
+                        `Develop and architect a project for the Shopatainment journey that features a video feed with products.`,
+                        `Increase landing from 42% to 55% by front-end optimization like caching, dynamic import, SSR, etc.`,
+                    ]
+                },
+                {
                     title: 'SDE-II',
                     desc: '',
-                    date: 'June 2021 - Present',
+                    date: 'June 2021 - Jul 2023',
                     details: [
                         `Worked on four different projects of different domains like CMS, commerce, live show, etc.`,
+                        ``,
                         `Most projects use <strong>React</strong>, <strong>Nextjs</strong>, other front-end technologies and also worked with <strong>webRTC</strong>, <strong>RTM</strong>, <strong>FCM</strong>. One project is based on Shopify.`
                     ]
                 }
