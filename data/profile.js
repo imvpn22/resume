@@ -102,7 +102,7 @@ const profileData = {
                     date: 'June 2021 - Jul 2023',
                     details: [
                         `Worked on four different projects of different domains like CMS, commerce, live show, etc.`,
-                        ``,
+                        `Integrate Ads on web with the help of internal library.`,
                         `Most projects use <strong>React</strong>, <strong>Nextjs</strong>, other front-end technologies and also worked with <strong>webRTC</strong>, <strong>RTM</strong>, <strong>FCM</strong>. One project is based on Shopify.`
                     ]
                 }
