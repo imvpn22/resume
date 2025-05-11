@@ -23,7 +23,7 @@ strong {
 }
 
 .resume-container {
-  padding: 10px 15px;
+  padding: 1rem 0;
   margin: 0 auto;
   max-width: 596px;
   background-color: #fff;
@@ -51,16 +51,16 @@ strong {
 }
 
 .header-title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 300;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .header-sub-title {
   font-weight: 400;
   color: #757575;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
