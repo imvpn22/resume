@@ -317,6 +317,9 @@ strong {
   display: flex;
   gap: 1rem;
 }
+#aboutIntro {
+  text-align: justify;
+}
 
 /* Media wuery for mobile view */
 @media screen and (max-width: 500px) {
