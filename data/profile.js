@@ -4,7 +4,7 @@ const profileData = {
   sub_title: "Senior Software Engineer",
   logoURL: "assets/images/dp.jpg",
   about: {
-    intro: `Senior Software Engineer with almost 7 years of frontend development experience. Expert in building high-performance UI and seamless UX. Experienced in leading projects, migrating legacy systems, and creating reusable components. Skilled in A/B testing, cross-platform compatibility, and responsive design. Effective mentor and collaborator dedicated to continuous learning and innovation.`,
+    intro: `Senior Software Engineer with 7 years of experience in building scalable, high-performance web applications using React, TypeScript, and modern ES6+ practices. Skilled in leading projects, migrating legacy systems, and developing reusable components, custom hooks, and micro frontend architectures. Experienced in delivering real-time features such as chat, panic alerts, and live employee tracking on custom maps using Canvas, powered by WebSockets for dynamic communication. Adept at creating intuitive, responsive UIs with A/B testing, cross-platform compatibility, and clean, maintainable code. A strong collaborator and mentor, committed to continuous learning and engineering excellence.`,
     contact: {
       email: "imvpn22@gmail.com",
       phone: "+91-9919716378",
@@ -30,16 +30,25 @@ const profileData = {
   ],
   skills: [
     {
-      title: "Languages",
-      value: "HTML5, CSS3, TypeScript, JavaScript",
+      title: "Languages & Standards",
+      value: "HTML5, CSS3, TypeScript, JavaScript(ES6+), SCSS, Tailwind CSS",
     },
     {
       title: "Frameworks/Libraries",
-      value: "ReactJS, React-Native, Redux, NodeJS-Express, NextJS, Angular",
+      value:
+        "ReactJS, React-Native, Redux, MobX, NodeJS-Express, NextJS, Angular, Next.js, React Query",
+    },
+    {
+      title: "Maps & Visualization",
+      value: "Canvas API, Leaflet.js, D3.js, Chart.js, HighCharts",
+    },
+    {
+      title: "Architecture & Tooling",
+      value: "Micro Frontend Architecture, Webpack, Storybook",
     },
     {
       title: "Others",
-      value: "Git, Jenkins, AWS",
+      value: "Git, Jenkins, AWS, WebSockets",
     },
   ],
   experiences: [
@@ -51,7 +60,7 @@ const profileData = {
         `Developed <strong>real-time chat, panic alerts, a custom map showing employee locations</strong>, and an <strong>in-browser document editor and signer</strong> to address specific business needs with high interactivity.`,
         `Built scalable features with <strong>React and TypeScript</strong>, optimized UI/UX, and improved performance using <strong>custom component, hooks and utility libraries</strong>.`,
         `Designed <strong>micro frontend solutions</strong> and implemented dynamic data filtering logic to support modular development and efficient data access.`,
-        `Led cross-functional collaboration, promoted clean, maintainable code using ES6+ and TypeScript best practices, and drove continuous improvement.`,
+        `Led cross-functional collaboration, promoted clean, maintainable code using <strong>ES6+ and TypeScript</strong> best practices, and drove continuous improvement.`,
       ],
     },
     {
