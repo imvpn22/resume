@@ -22,7 +22,7 @@ strong {
   color: #333;
 }
 
-.container {
+.resume-container {
   padding: 10px 15px;
   margin: 0 auto;
   max-width: 596px;
@@ -38,8 +38,6 @@ strong {
 }
 
 .header {
-  text-align: center;
-  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +68,6 @@ strong {
   display: flex;
   align-items: center;
   color: #3173bb;
-  padding: 0.4rem 0.6rem;
 }
 
 .contact-logo {
@@ -308,12 +305,20 @@ strong {
   justify-content: space-between;
 }
 .about-left {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  gap: .5rem;
 }
 .contact-section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: .5rem;
+}
+.quick-contacts {
+  display: flex;
+  gap: 1rem;
 }
 
 /* Media wuery for mobile view */
