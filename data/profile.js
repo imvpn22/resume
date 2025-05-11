@@ -55,7 +55,7 @@ const profileData = {
     {
       organization: "WrkSpot",
       title: "Senior Frontend Engineer",
-      date: "July 2025 - Present",
+      date: "July 2024 - Present",
       details: [
         `Developed <strong>real-time chat, panic alerts, a custom map showing employee locations</strong>, and an <strong>in-browser document editor and signer</strong> to address specific business needs with high interactivity.`,
         `Built scalable features with <strong>React and TypeScript</strong>, optimized UI/UX, and improved performance using <strong>custom component, hooks and utility libraries</strong>.`,
