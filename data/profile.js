@@ -44,9 +44,20 @@ const profileData = {
   ],
   experiences: [
     {
+      organization: "WrkSpot",
+      title: "Senior Frontend Engineer",
+      date: "July 2025 - Present",
+      details: [
+        `Developed <strong>real-time chat, panic alerts, a custom map showing employee locations</strong>, and an <strong>in-browser document editor and signer</strong> to address specific business needs with high interactivity.`,
+        `Built scalable features with <strong>React and TypeScript</strong>, optimized UI/UX, and improved performance using <strong>custom component, hooks and utility libraries</strong>.`,
+        `Designed <strong>micro frontend solutions</strong> and implemented dynamic data filtering logic to support modular development and efficient data access.`,
+        `Led cross-functional collaboration, promoted clean, maintainable code using ES6+ and TypeScript best practices, and drove continuous improvement.`,
+      ],
+    },
+    {
       organization: "Gameskraft",
       title: "Senior Software Engineer",
-      date: "Dec 2022 - Present",
+      date: "Dec 2022 - June 2024",
       details: [
         `As part of the <strong>RummyCulture App</strong> team, worked on the development of core features like <strong>TDS summary & certificate</strong>, <strong>game join & re-join flow</strong> improvements,
         <strong>scorecard</strong>, <strong>withdrawal flow</strong>, <strong>user referral flow</strong>, and <strong>game bubble state</strong> optimizations.
