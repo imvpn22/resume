@@ -4,7 +4,8 @@ const profileData = {
   sub_title: "Senior Software Engineer",
   logoURL: "assets/images/dp.jpg",
   about: {
-    intro: `Senior Software Engineer with 7 years of experience in building scalable, high-performance web applications using React, TypeScript, and modern ES6+ practices. Skilled in leading projects, migrating legacy systems, and developing reusable components, custom hooks, and micro frontend architectures. Experienced in delivering real-time features such as chat, panic alerts, and live employee tracking on custom maps using Canvas, powered by WebSockets for dynamic communication. Adept at creating intuitive, responsive UIs with A/B testing, cross-platform compatibility, and clean, maintainable code. A strong collaborator and mentor, committed to continuous learning and engineering excellence.`,
+    intro:
+      "Senior Software Engineer with 7 years of experience building high-performance web apps using React, TypeScript, and modern ES6+ practices. Skilled in leading projects, creating reusable components, and implementing real-time features like chat and live tracking with WebSockets and Canvas. Passionate about clean, scalable code, intuitive UIs, and mentoring teams for engineering excellence.",
     contact: {
       email: "imvpn22@gmail.com",
       phone: "+91-9919716378",
@@ -74,7 +75,6 @@ const profileData = {
         and timely delivery.`,
         `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow, boosting day1 metrics of Registration to Add Cash and Registration to Cash Game by around <strong>5%</strong>.`,
         `Integrated in-house <strong>help center SDK</strong>, offering self-help features like guided app core flows and callback scheduling for users, leading to a <strong>reduction in customer call volume</strong>.`,
-        `Initiated the standardization of a React-Native <strong>custom UI library</strong>, encompassing reusable components, utilities, higher-order components, hooks, and animations for versatile project needs.`,
         `Addressed live issues such as App crashes, JS crashes, and ANRs using <strong>Sentry</strong> and <strong>Firebase Crashlytics</strong>. Mentored juniors through knowledge-sharing and code-review sessions to ensure bug-free code and optimal performance.`,
       ],
     },
