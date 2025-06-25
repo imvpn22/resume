@@ -271,7 +271,7 @@ const setCatagoryHeader = (title) => {
   setTitle(profileData);
   setLinks(profileData.links);
   setExperience(profileData.experiences);
-  setProjects(profileData.projects);
+  // setProjects(profileData.projects);
   setSkills(profileData.skills);
   setEducation(profileData.education);
   setCertification(profileData.certifications);

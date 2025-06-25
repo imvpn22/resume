@@ -69,7 +69,6 @@ const profileData = {
         <strong>scorecard</strong>, <strong>withdrawal flow</strong>, <strong>user referral flow</strong>, and <strong>game bubble state</strong> optimizations.
         I ensured end-to-end responsibility, focusing on <strong>pixel-perfect UI</strong>, smooth UX, user testing, <strong>A/B experiments</strong>, cross-platform compatibility,
         and timely delivery.`,
-        `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow, boosting day1 metrics of Registration to Add Cash and Registration to Cash Game by around <strong>5%</strong>.`,
         `Integrated in-house <strong>help center SDK</strong>, offering self-help features like guided app core flows and callback scheduling for users, leading to a <strong>reduction in customer call volume</strong>.`,
         `Addressed live issues such as App crashes, JS crashes, and ANRs using <strong>Sentry</strong> and <strong>Firebase Crashlytics</strong>. Mentored juniors through knowledge-sharing and code-review sessions to ensure bug-free code and optimal performance.`,
       ],
@@ -133,29 +132,29 @@ const profileData = {
       ],
     },
   ],
-  // projects: [
-  //   {
-  //     title: "Restaurant Review",
-  //     duration: "Jun - Nov 2018",
-  //     link: "https://github.com/imvpn22/restaurant-review-pwa",
-  //     desc: `A web app to list, view and add reviews of restaurants.
-  //     The app includes filtering based on location, cuisine, and rating.
-  //     This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-  //     Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-  //     with Progressive Web-Application standards including full-responsiveness,
-  //     offline support, and improved accessibility.`,
-  //   },
-  //   {
-  //     title: "WhiteBoard",
-  //     duration: "Jun - Aug 2017",
-  //     link: "https://github.com/imvpn22/whiteboard",
-  //     desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-  //     The app includes a real-time messaging and sketching platform for collaboration with Peers.
-  //     It also has features to create groups(teams) and add/remove members.
-  //     Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-  //     <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`,
-  //   },
-  // ],
+  projects: [
+    // {
+    //     title: "Restaurant Review",
+    //     duration: "Jun - Nov 2018",
+    //     link: "https://github.com/imvpn22/restaurant-review-pwa",
+    //     desc: `A web app to list, view and add reviews of restaurants.
+    //     The app includes filtering based on location, cuisine, and rating.
+    //     This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
+    //     Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
+    //     with Progressive Web-Application standards including full-responsiveness,
+    //     offline support, and improved accessibility.`,
+    //   },
+    //   {
+    //     title: "WhiteBoard",
+    //     duration: "Jun - Aug 2017",
+    //     link: "https://github.com/imvpn22/whiteboard",
+    //     desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
+    //     The app includes a real-time messaging and sketching platform for collaboration with Peers.
+    //     It also has features to create groups(teams) and add/remove members.
+    //     Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
+    //     <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`,
+    //   },
+  ],
   education: [
     {
       alma: "FET, GKV, Haridwar",
