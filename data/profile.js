@@ -44,12 +44,9 @@ const profileData = {
       value: "Canvas API, Leaflet.js, D3.js, Chart.js, HighCharts",
     },
     {
-      title: "Architecture & Tooling",
-      value: "Micro Frontend Architecture, Webpack, Storybook",
-    },
-    {
       title: "Others",
-      value: "Git, Jenkins, AWS, WebSockets",
+      value:
+        "Micro Frontend Architecture, Webpack, Storybook, Git, Jenkins, AWS, WebSockets",
     },
   ],
   experiences: [
@@ -60,8 +57,7 @@ const profileData = {
       details: [
         `Developed <strong>real-time chat, panic alerts, a custom map showing employee locations</strong>, and an <strong>in-browser document editor and signer</strong> to address specific business needs with high interactivity.`,
         `Built scalable features with <strong>React and TypeScript</strong>, optimized UI/UX, and improved performance using <strong>custom component, hooks and utility libraries</strong>.`,
-        `Designed <strong>micro frontend solutions</strong> and implemented dynamic data filtering logic to support modular development and efficient data access.`,
-        `Led cross-functional collaboration, promoted clean, maintainable code using <strong>ES6+ and TypeScript</strong> best practices, and drove continuous improvement.`,
+        `Designed <strong>micro frontend solutions</strong> and implemented dynamic data filtering logic to support modular development and efficient data access. Led cross-functional collaboration, promoted clean, maintainable code using <strong>ES6+ and TypeScript</strong> best practices, and drove continuous improvement.`,
       ],
     },
     {
@@ -137,29 +133,29 @@ const profileData = {
       ],
     },
   ],
-  projects: [
-    {
-      title: "Restaurant Review",
-      duration: "Jun - Nov 2018",
-      link: "https://github.com/imvpn22/restaurant-review-pwa",
-      desc: `A web app to list, view and add reviews of restaurants.
-      The app includes filtering based on location, cuisine, and rating.
-      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-      with Progressive Web-Application standards including full-responsiveness,
-      offline support, and improved accessibility.`,
-    },
-    {
-      title: "WhiteBoard",
-      duration: "Jun - Aug 2017",
-      link: "https://github.com/imvpn22/whiteboard",
-      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-      The app includes a real-time messaging and sketching platform for collaboration with Peers.
-      It also has features to create groups(teams) and add/remove members.
-      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`,
-    },
-  ],
+  // projects: [
+  //   {
+  //     title: "Restaurant Review",
+  //     duration: "Jun - Nov 2018",
+  //     link: "https://github.com/imvpn22/restaurant-review-pwa",
+  //     desc: `A web app to list, view and add reviews of restaurants.
+  //     The app includes filtering based on location, cuisine, and rating.
+  //     This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
+  //     Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
+  //     with Progressive Web-Application standards including full-responsiveness,
+  //     offline support, and improved accessibility.`,
+  //   },
+  //   {
+  //     title: "WhiteBoard",
+  //     duration: "Jun - Aug 2017",
+  //     link: "https://github.com/imvpn22/whiteboard",
+  //     desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
+  //     The app includes a real-time messaging and sketching platform for collaboration with Peers.
+  //     It also has features to create groups(teams) and add/remove members.
+  //     Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
+  //     <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`,
+  //   },
+  // ],
   education: [
     {
       alma: "FET, GKV, Haridwar",
